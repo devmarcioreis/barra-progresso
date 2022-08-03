@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*==========Google Fonts==========*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*==========Reset CSS==========*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*==========Body==========*/
+body {
+    font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #151F30, #103778);
+}
+
+/*==========Habilidades==========*/
+.habilidades {
+    padding: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 1px 1px 10px #000;
+}
+.habilidades .section-header {
+    margin: 0 0 80px;
+}
+.habilidades .section-header h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+}
+.habilidades .section-header hr {
+    width: 25%;
+    height: 5px;
+    background: #fff;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+/*==========Progresso==========*/
+.progresso {
+    position: relative;
+    width: 380px;
+    height: 30px;
+    margin: 70px 0 0;
+    border-radius: 20px;
+    background: #fff;
+}
+.progresso span {
+    position: absolute;
+    top: -32px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.progresso .barra-progresso {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/*==========Progresso Cores==========*/
+.progresso:nth-child(2) .barra-progresso {
+    background: linear-gradient(90deg, #59cf55, #0093e9);
+}
+.progresso:nth-child(3) .barra-progresso {
+    background: linear-gradient(90deg, #59cf55, #fa5a8f);
+}
+.progresso:nth-child(4) .barra-progresso {
+    background: linear-gradient(90deg, #59cf55, #9B41F0);
+}
+.progresso:nth-child(5) .barra-progresso {
+    background: #59cf55;
+}
+.progresso:nth-child(6) .barra-progresso {
+    background: #59cf55;
+}
+.progresso:nth-child(7) .barra-progresso {
+    background: #59cf55;
+}
+.progresso:nth-child(8) .barra-progresso {
+    background: #59cf55;
+}
